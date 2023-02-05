@@ -1,0 +1,776 @@
+{
+	"textures": [
+		{
+			"image": "ghost-boy.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 387,
+				"h": 61
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ghost-attack-004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 27,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 27,
+						"h": 32
+					}
+				},
+				{
+					"filename": "ghost-attack-005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 29,
+						"h": 25
+					},
+					"frame": {
+						"x": 1,
+						"y": 35,
+						"w": 29,
+						"h": 25
+					}
+				},
+				{
+					"filename": "ghost-attack-003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 23,
+						"h": 32
+					},
+					"frame": {
+						"x": 30,
+						"y": 1,
+						"w": 23,
+						"h": 32
+					}
+				},
+				{
+					"filename": "ghost-teleport-002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 7,
+						"w": 20,
+						"h": 25
+					},
+					"frame": {
+						"x": 32,
+						"y": 35,
+						"w": 20,
+						"h": 25
+					}
+				},
+				{
+					"filename": "ghost-die-003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 8,
+						"w": 20,
+						"h": 24
+					},
+					"frame": {
+						"x": 54,
+						"y": 35,
+						"w": 20,
+						"h": 24
+					}
+				},
+				{
+					"filename": "ghost-attack-007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 24,
+						"h": 29
+					},
+					"frame": {
+						"x": 55,
+						"y": 1,
+						"w": 24,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-die-001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 4,
+						"w": 20,
+						"h": 28
+					},
+					"frame": {
+						"x": 76,
+						"y": 32,
+						"w": 20,
+						"h": 28
+					}
+				},
+				{
+					"filename": "ghost-attack-002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 23,
+						"h": 29
+					},
+					"frame": {
+						"x": 81,
+						"y": 1,
+						"w": 23,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-walk-000.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 4,
+						"w": 20,
+						"h": 28
+					},
+					"frame": {
+						"x": 98,
+						"y": 32,
+						"w": 20,
+						"h": 28
+					}
+				},
+				{
+					"filename": "ghost-attack-000.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 18,
+						"h": 29
+					},
+					"frame": {
+						"x": 106,
+						"y": 1,
+						"w": 18,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-walk-002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 19,
+						"h": 28
+					},
+					"frame": {
+						"x": 120,
+						"y": 32,
+						"w": 19,
+						"h": 28
+					}
+				},
+				{
+					"filename": "ghost-die-000.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 18,
+						"h": 29
+					},
+					"frame": {
+						"x": 126,
+						"y": 1,
+						"w": 18,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-idle-001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 18,
+						"h": 28
+					},
+					"frame": {
+						"x": 141,
+						"y": 32,
+						"w": 18,
+						"h": 28
+					}
+				},
+				{
+					"filename": "ghost-idle-000.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 18,
+						"h": 29
+					},
+					"frame": {
+						"x": 146,
+						"y": 1,
+						"w": 18,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-idle-003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 18,
+						"h": 28
+					},
+					"frame": {
+						"x": 161,
+						"y": 32,
+						"w": 18,
+						"h": 28
+					}
+				},
+				{
+					"filename": "ghost-idle-002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 18,
+						"h": 29
+					},
+					"frame": {
+						"x": 166,
+						"y": 1,
+						"w": 18,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-run-003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 18,
+						"h": 28
+					},
+					"frame": {
+						"x": 181,
+						"y": 32,
+						"w": 18,
+						"h": 28
+					}
+				},
+				{
+					"filename": "ghost-run-002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 18,
+						"h": 29
+					},
+					"frame": {
+						"x": 186,
+						"y": 1,
+						"w": 18,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-run-007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 18,
+						"h": 28
+					},
+					"frame": {
+						"x": 201,
+						"y": 32,
+						"w": 18,
+						"h": 28
+					}
+				},
+				{
+					"filename": "ghost-run-006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 18,
+						"h": 29
+					},
+					"frame": {
+						"x": 206,
+						"y": 1,
+						"w": 18,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-attack-006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 5,
+						"w": 23,
+						"h": 27
+					},
+					"frame": {
+						"x": 221,
+						"y": 32,
+						"w": 23,
+						"h": 27
+					}
+				},
+				{
+					"filename": "ghost-teleport-000.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 18,
+						"h": 29
+					},
+					"frame": {
+						"x": 226,
+						"y": 1,
+						"w": 18,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-walk-001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 18,
+						"h": 29
+					},
+					"frame": {
+						"x": 246,
+						"y": 1,
+						"w": 18,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-teleport-001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 20,
+						"h": 27
+					},
+					"frame": {
+						"x": 246,
+						"y": 32,
+						"w": 20,
+						"h": 27
+					}
+				},
+				{
+					"filename": "ghost-walk-003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 18,
+						"h": 29
+					},
+					"frame": {
+						"x": 266,
+						"y": 1,
+						"w": 18,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ghost-attack-001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 5,
+						"w": 19,
+						"h": 27
+					},
+					"frame": {
+						"x": 268,
+						"y": 32,
+						"w": 19,
+						"h": 27
+					}
+				},
+				{
+					"filename": "ghost-run-001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 18,
+						"h": 27
+					},
+					"frame": {
+						"x": 286,
+						"y": 1,
+						"w": 18,
+						"h": 27
+					}
+				},
+				{
+					"filename": "ghost-run-005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 18,
+						"h": 27
+					},
+					"frame": {
+						"x": 289,
+						"y": 30,
+						"w": 18,
+						"h": 27
+					}
+				},
+				{
+					"filename": "ghost-die-002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 6,
+						"w": 19,
+						"h": 26
+					},
+					"frame": {
+						"x": 306,
+						"y": 1,
+						"w": 19,
+						"h": 26
+					}
+				},
+				{
+					"filename": "ghost-run-000.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 6,
+						"w": 19,
+						"h": 26
+					},
+					"frame": {
+						"x": 309,
+						"y": 29,
+						"w": 19,
+						"h": 26
+					}
+				},
+				{
+					"filename": "ghost-run-004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 6,
+						"w": 19,
+						"h": 26
+					},
+					"frame": {
+						"x": 327,
+						"y": 1,
+						"w": 19,
+						"h": 26
+					}
+				},
+				{
+					"filename": "ghost-die-004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 14,
+						"w": 23,
+						"h": 18
+					},
+					"frame": {
+						"x": 330,
+						"y": 29,
+						"w": 23,
+						"h": 18
+					}
+				},
+				{
+					"filename": "ghost-teleport-003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 9,
+						"w": 9,
+						"h": 11
+					},
+					"frame": {
+						"x": 330,
+						"y": 49,
+						"w": 9,
+						"h": 11
+					}
+				},
+				{
+					"filename": "ghost-die-005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 19,
+						"w": 31,
+						"h": 13
+					},
+					"frame": {
+						"x": 355,
+						"y": 1,
+						"w": 31,
+						"h": 13
+					}
+				},
+				{
+					"filename": "ghost-die-006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 20,
+						"w": 31,
+						"h": 12
+					},
+					"frame": {
+						"x": 355,
+						"y": 16,
+						"w": 31,
+						"h": 12
+					}
+				},
+				{
+					"filename": "ghost-die-007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 20,
+						"w": 31,
+						"h": 12
+					},
+					"frame": {
+						"x": 355,
+						"y": 30,
+						"w": 31,
+						"h": 12
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:205d6c584c4c7f64e83e2a14d7ebc21b:015cb0783e4dabe7566f7b598c5ca32e:15c0c95a5be07c00d476d822e2ff54ca$"
+	}
+}

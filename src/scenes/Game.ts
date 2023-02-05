@@ -31,16 +31,16 @@ export default class Game extends Phaser.Scene {
     this.player = this.physics.add.sprite(
       128,
       128,
-      'player',
-      'adventurer-idle-00.png'
+      'ghost-boy',
+      'ghost-idle-002.png'
     );
 
     this.anims.create({
-      key: 'player-idle',
-      frames: this.anims.generateFrameNames('player', {
+      key: 'ghost-idle',
+      frames: this.anims.generateFrameNames('ghost-boy', {
         start: 0,
-        end: 5,
-        prefix: 'adventurer-idle-0',
+        end: 3,
+        prefix: 'ghost-idle-00',
         suffix: '.png',
       }),
       repeat: -1,
@@ -48,21 +48,20 @@ export default class Game extends Phaser.Scene {
     });
 
     this.anims.create({
-      key: 'player-run',
-      frames: this.anims.generateFrameNames('player', {
+      key: 'ghost-run',
+      frames: this.anims.generateFrameNames('ghost-boy', {
         start: 0,
-        end: 5,
-        prefix: 'adventurer-run-0',
+        end: 7,
+        prefix: 'ghost-run-00',
         suffix: '.png',
       }),
       repeat: -1,
       frameRate: 10,
     });
 
-    this.player.anims.play('player-idle');
+    this.player.anims.play('ghost-idle');
 
     this.physics.add.collider(this.player, wallsLayer);
-    this.player.body.setSize((this.player.width = 32));
   }
 
   update(time: number, delta: number): void {
@@ -73,20 +72,18 @@ export default class Game extends Phaser.Scene {
     const speed = 100;
 
     if (this.cursors.left?.isDown) {
-      this.player.anims.play('player-run', true);
+      this.player.anims.play('ghost-run', true);
       this.player.setVelocity(-speed, 0);
-      this.player.scaleX = -1;
-      this.player.body.offset.x = 36;
+      this.player.setFlipX(true);
     } else if (this.cursors.right?.isDown) {
-      this.player.anims.play('player-run', true);
+      this.player.anims.play('ghost-run', true);
       this.player.setVelocity(speed, 0);
-      this.player.scaleX = 1;
-      this.player.body.offset.x = 0;
+      this.player.setFlipX(false);
     } else if (this.cursors.up?.isDown) {
-      this.player.anims.play('player-run', true);
+      this.player.anims.play('ghost-run', true);
       this.player.setVelocity(0, -speed);
     } else if (this.cursors.down?.isDown) {
-      this.player.anims.play('player-run', true);
+      this.player.anims.play('ghost-run', true);
       this.player.setVelocity(0, speed);
     } else {
       const parts = this.player.anims.currentAnim.key.split('-');
