@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { debugDraw } from '../utils/debug';
 
 export default class Game extends Phaser.Scene {
   private cursors!: Phaser.Types.Input.Keyboard.CursorKeys;
@@ -21,12 +22,7 @@ export default class Game extends Phaser.Scene {
 
     wallsLayer.setCollisionByProperty({ collides: true });
 
-    const debugGraphics = this.add.graphics().setAlpha(0.7);
-    wallsLayer.renderDebug(debugGraphics, {
-      tileColor: null,
-      collidingTileColor: new Phaser.Display.Color(243, 234, 48, 255),
-      faceColor: new Phaser.Display.Color(40, 39, 37, 255),
-    });
+    // debugDraw(wallsLayer, this);
 
     this.player = this.physics.add.sprite(
       128,
@@ -34,6 +30,8 @@ export default class Game extends Phaser.Scene {
       'ghost-boy',
       'ghost-idle-002.png'
     );
+
+    this.player.body.setSize(this.player.width * 0.5);
 
     this.anims.create({
       key: 'ghost-idle',
